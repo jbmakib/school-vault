@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar expand="lg">
             <Container>
                 <NavLink to="/" className="text-decoration-none h4 text-orange">
                     Dream School
