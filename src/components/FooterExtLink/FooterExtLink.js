@@ -8,7 +8,7 @@ const FooterExtLink = ({ link, children }) => {
             rel="noreferrer"
             className="d-block text-decoration-none text-white"
         >
-            {children}
+            &#8599; {children}
         </a>
     );
 };

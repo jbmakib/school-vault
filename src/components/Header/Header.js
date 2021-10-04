@@ -15,23 +15,30 @@ const Header = () => {
                         <NavLink
                             to="/home"
                             className="text-decoration-none text-secondary m-2"
-                            activeClassName="text-dark"
+                            activeClassName="text-orange fw-bold"
                         >
                             Home
                         </NavLink>
                         <NavLink
                             to="/about"
                             className="text-decoration-none text-secondary m-2"
-                            activeClassName="text-dark"
+                            activeClassName="text-orange fw-bold"
                         >
                             About Us
                         </NavLink>
                         <NavLink
                             to="/services"
                             className="text-decoration-none text-secondary m-2"
-                            activeClassName="text-dark"
+                            activeClassName="text-orange fw-bold"
                         >
                             Services
+                        </NavLink>
+                        <NavLink
+                            to="/gallery"
+                            className="text-decoration-none text-secondary m-2"
+                            activeClassName="text-orange fw-bold"
+                        >
+                            Gallery
                         </NavLink>
                     </Nav>
                 </Navbar.Collapse>
