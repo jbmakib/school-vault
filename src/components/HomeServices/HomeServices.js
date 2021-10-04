@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Card from "../Card/Card";
 
 const HomeServices = () => {
@@ -21,6 +22,10 @@ const HomeServices = () => {
                     <Card key={service.id} service={service}></Card>
                 ))}
             </Row>
+            <div className="d-flex justify-content-between">
+                <span></span>
+                <Link to="/services">See all services here &#8594;</Link>
+            </div>
         </div>
     );
 };

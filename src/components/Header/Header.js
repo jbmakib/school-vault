@@ -6,7 +6,10 @@ const Header = () => {
     return (
         <Navbar expand="lg">
             <Container>
-                <NavLink to="/" className="text-decoration-none h4 text-orange">
+                <NavLink
+                    to="/"
+                    className="text-decoration-none h4 text-orange fw-bold"
+                >
                     School Vault
                 </NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -34,11 +37,11 @@ const Header = () => {
                             Services
                         </NavLink>
                         <NavLink
-                            to="/gallery"
+                            to="/contact"
                             className="text-decoration-none text-secondary m-2"
                             activeClassName="text-orange fw-bold"
                         >
-                            Gallery
+                            Contact Us
                         </NavLink>
                     </Nav>
                 </Navbar.Collapse>
