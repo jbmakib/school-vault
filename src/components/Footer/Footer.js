@@ -3,6 +3,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import FooterExtLink from "../FooterExtLink/FooterExtLink";
 
+// this is footer which is fixed in all path
 const Footer = () => {
     return (
         <div className="py-5 bg-secondary text-white">

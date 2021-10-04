@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
+// our header contains only the navbar
 const Header = () => {
     return (
         <Navbar expand="lg">

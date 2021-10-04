@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import Card from "../Card/Card";
 
+// in /services path we can see this component
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {

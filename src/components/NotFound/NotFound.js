@@ -3,6 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./NotFound.css";
 
+// this compoenent will be shown when no page exists
 const NotFound = () => {
     return (
         <Container className="vh-50 text-center">

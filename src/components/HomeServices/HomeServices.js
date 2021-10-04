@@ -5,6 +5,7 @@ import { Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Card from "../Card/Card";
 
+// we have to show only 4 services in home. so we sliced it and showed it into Ui
 const HomeServices = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
