@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Card as BootstrapCard } from "react-bootstrap";
 import "./Card.css";
 
+// this card is used to show services
 const Card = ({ service }) => {
     const { img, name, authorName, price, days, time } = service;
     return (

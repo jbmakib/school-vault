@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
+// this is about component which is set into /about route
 const About = () => {
     return (
         <Container>

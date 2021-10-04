@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
+// contact us page in /contact route
 const ContactUs = () => {
     return (
         <Container className="pb-5">
