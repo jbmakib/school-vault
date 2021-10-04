@@ -6,7 +6,7 @@ const FooterExtLink = ({ link, children }) => {
             href={link}
             target="_blank"
             rel="noreferrer"
-            className="d-block text-decoration-none text-dark"
+            className="d-block text-decoration-none text-white"
         >
             {children}
         </a>
