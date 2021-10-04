@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
-                <NavLink to="/" className="text-decoration-none h4">
-                    React-Bootstrap
+                <NavLink to="/" className="text-decoration-none h4 text-orange">
+                    Dream School
                 </NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
