@@ -1,0 +1,6 @@
+:root {
+    --secondary: #c9e2f8;
+}
+.card-border {
+    border-color: var(--secondary) !important;
+}
