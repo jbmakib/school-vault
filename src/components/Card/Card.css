@@ -4,3 +4,6 @@
 .card-border {
     border-color: var(--secondary) !important;
 }
+.rounded-4 {
+    border-radius: 16px !important;
+}

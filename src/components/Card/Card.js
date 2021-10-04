@@ -6,7 +6,7 @@ const Card = ({ service }) => {
     const { img, name, authorName, price, days, time } = service;
     return (
         <Col>
-            <BootstrapCard className="h-100">
+            <BootstrapCard className="h-100 rounded-4 overflow-hidden">
                 <BootstrapCard.Img
                     variant="top"
                     src={img}
