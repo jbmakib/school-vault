@@ -7,7 +7,7 @@ const Header = () => {
         <Navbar expand="lg">
             <Container>
                 <NavLink to="/" className="text-decoration-none h4 text-orange">
-                    Dream School
+                    School Vault
                 </NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

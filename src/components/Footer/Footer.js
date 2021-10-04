@@ -9,7 +9,7 @@ const Footer = () => {
             <Container>
                 <Row xs={1} md={2} lg={3}>
                     <Col>
-                        <h4>Dream School</h4>
+                        <h4>School Vault</h4>
                         <br />
                         <small>
                             Works for building your children properly. With
