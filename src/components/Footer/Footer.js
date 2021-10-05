@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className="py-5 bg-secondary text-white">
             <Container>
-                <Row xs={1} md={2} lg={3}>
+                <Row xs={1} md={2} lg={3} className="g-4">
                     <Col>
                         <h4>School Vault</h4>
                         <br />
@@ -18,7 +18,7 @@ const Footer = () => {
                         </small>
                     </Col>
                     <Col>
-                        <Row xs={1} lg={2}>
+                        <Row xs={1} lg={2} className="g-4">
                             <Col>
                                 <h6 className="fw-bold">Navigation</h6>
                                 <br />

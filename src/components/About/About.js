@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import Instructors from "../Instructors/Instructors";
 
 // this is about component which is set into /about route
 const About = () => {
@@ -29,6 +30,7 @@ const About = () => {
                     </p>
                 </Col>
             </Row>
+            <Instructors></Instructors>
         </Container>
     );
 };
