@@ -1,6 +1,7 @@
 :root {
     --orange: #f37335;
     --orange-dark: #c9634a;
+    --orange-light: #f7a57d80;
 }
 .homeFront-h1 {
     font-size: 64px;
@@ -29,4 +30,7 @@
 .btn-orange:hover {
     background-color: var(--orange-dark) !important;
     color: white;
+}
+.bg-light-orange {
+    background-color: var(--orange-light);
 }
