@@ -11,6 +11,7 @@ import instructor7 from "../../images/instructors/author-7.png";
 import instructor8 from "../../images/instructors/author-8.png";
 import instructor9 from "../../images/instructors/author-9.png";
 
+// this component is showing in home and about path/route
 const Instructors = () => {
     return (
         <div className="bg-light-orange p-5 rounded-4 my-5">
