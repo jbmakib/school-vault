@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 // contact us page in /contact route
 const ContactUs = () => {
@@ -9,18 +9,22 @@ const ContactUs = () => {
                 Contact
                 <span className="text-orange"> Us</span>
             </h1>
-            <div className="row row-cols-1 row-cols-lg-2 g-4">
-                <div className="col">
+            <Row xs={1} lg={2} className="g-4">
+                <Col>
                     <h5 className="fw-bold">Get in touch</h5>
                     <p>
                         Have a question? Concern? Request? We’d love to hear
                         from you. Connect with us through the following ways.
                     </p>
-                    <div className="row align-items-center justify-content-start py-3">
-                        <div className="col-2 col-md-1 d-flex justify-content-center">
+                    <Row className="align-items-center justify-content-start py-3">
+                        <Col
+                            xs={2}
+                            md={1}
+                            className="d-flex justify-content-center"
+                        >
                             <i className="fas fa-headset h3"></i>
-                        </div>
-                        <div className="col-10 col-md-11">
+                        </Col>
+                        <Col xs={10} md={11}>
                             <h6 className="fw-bolder m-0 my-1">Support 24/7</h6>
                             <a
                                 href="tel:+8801322810867"
@@ -28,13 +32,17 @@ const ContactUs = () => {
                             >
                                 <span className="text-orange">01322810867</span>
                             </a>
-                        </div>
-                    </div>
-                    <div className="row align-items-center justify-content-start py-3">
-                        <div className="col-2 col-md-1 d-flex justify-content-center">
+                        </Col>
+                    </Row>
+                    <Row className="align-items-center justify-content-start py-3">
+                        <Col
+                            xs={2}
+                            md={1}
+                            className="d-flex justify-content-center"
+                        >
                             <i className="fas fa-map-marker-alt h3"></i>
-                        </div>
-                        <div className="col-10 col-md-11">
+                        </Col>
+                        <Col xs={10} md={11}>
                             <h6 className="fw-bolder m-0 my-1">Location</h6>
                             <a
                                 href="https://goo.gl/maps/wj4uBTA79oUoSnHR8"
@@ -46,30 +54,34 @@ const ContactUs = () => {
                                     CTG, Bangladesh
                                 </span>
                             </a>
-                        </div>
-                    </div>
-                    <div className="row align-items-center justify-content-start py-3">
-                        <div className="col-2 col-md-1 d-flex justify-content-center">
+                        </Col>
+                    </Row>
+                    <Row className="align-items-center justify-content-start py-3">
+                        <Col
+                            xs={2}
+                            md={1}
+                            className="d-flex justify-content-center"
+                        >
                             <i className="fas fa-envelope h3"></i>
-                        </div>
-                        <div className="col-10 col-md-11">
+                        </Col>
+                        <Col xs={10} md={11}>
                             <h6 className="fw-bolder m-0 my-1">Email</h6>
                             <a
                                 href="mailto:web@programming-hero.com"
                                 className="text-decoration-none my-1"
                             >
                                 <span className="text-orange">
-                                    web@programming-hero.com
+                                web@programming-hero.com
                                 </span>
                             </a>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
+                        </Col>
+                    </Row>
+                </Col>
+                <Col>
                     <h5 className="fw-bold">Message Me</h5>
-                    <form action="#">
-                        <div className="row row-cols-1 row-cols-md-2 my-3">
-                            <div className="col form-floating">
+                    <form>
+                        <Row xs={1} md={2} className="my-2">
+                            <Col className="form-floating">
                                 <input
                                     type="text"
                                     className="form-control mb-3 mb-md-0"
@@ -80,8 +92,8 @@ const ContactUs = () => {
                                 <label htmlFor="floatingName" className="ps-4">
                                     Full Name
                                 </label>
-                            </div>
-                            <div className="col form-floating">
+                            </Col>
+                            <Col className="form-floating">
                                 <input
                                     type="email"
                                     className="form-control"
@@ -92,8 +104,8 @@ const ContactUs = () => {
                                 <label htmlFor="floatingEmail" className="ps-4">
                                     Email
                                 </label>
-                            </div>
-                        </div>
+                            </Col>
+                        </Row>
                         <div className="form-floating">
                             <input
                                 type="text"
@@ -123,8 +135,8 @@ const ContactUs = () => {
                             Send Message
                         </button>
                     </form>
-                </div>
-            </div>
+                </Col>
+            </Row>
         </Container>
     );
 };
