@@ -8,6 +8,7 @@
 
 -   This app is created by ReactJS
 -   Services image
+-   Font Awesome Icon Pack Used ❤
 -   React Router Used 🔥
 -   React Bootstrap Used
 -   Built-in [JSON file](https://github.com/ProgrammingHeroWC4/review-website-jbmakib/blob/main/public/services.JSON)
