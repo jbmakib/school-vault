@@ -1,8 +1,18 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faHeadset,
+    faMapMarkerAlt,
+    faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 
 // contact us page in /contact route
 const ContactUs = () => {
+    const supportIcon = <FontAwesomeIcon icon={faHeadset} size="lg" />;
+    const locationIcon = <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" />;
+    const envelopIcon = <FontAwesomeIcon icon={faEnvelope} size="lg" />;
+
     return (
         <Container className="pb-5">
             <h1 className="fw-bold text-center mt-3 mb-5">
@@ -22,7 +32,7 @@ const ContactUs = () => {
                             md={1}
                             className="d-flex justify-content-center"
                         >
-                            <i className="fas fa-headset h3"></i>
+                            {supportIcon}
                         </Col>
                         <Col xs={10} md={11}>
                             <h6 className="fw-bolder m-0 my-1">Support 24/7</h6>
@@ -40,7 +50,7 @@ const ContactUs = () => {
                             md={1}
                             className="d-flex justify-content-center"
                         >
-                            <i className="fas fa-map-marker-alt h3"></i>
+                            {locationIcon}
                         </Col>
                         <Col xs={10} md={11}>
                             <h6 className="fw-bolder m-0 my-1">Location</h6>
@@ -62,7 +72,7 @@ const ContactUs = () => {
                             md={1}
                             className="d-flex justify-content-center"
                         >
-                            <i className="fas fa-envelope h3"></i>
+                            {envelopIcon}
                         </Col>
                         <Col xs={10} md={11}>
                             <h6 className="fw-bolder m-0 my-1">Email</h6>
@@ -71,7 +81,7 @@ const ContactUs = () => {
                                 className="text-decoration-none my-1"
                             >
                                 <span className="text-orange">
-                                web@programming-hero.com
+                                    web@programming-hero.com
                                 </span>
                             </a>
                         </Col>
