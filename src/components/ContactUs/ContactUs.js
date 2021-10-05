@@ -88,7 +88,7 @@ const ContactUs = () => {
                     </Row>
                 </Col>
                 <Col>
-                    <h5 className="fw-bold">Message Me</h5>
+                    <h5 className="fw-bold">Message Us</h5>
                     <form>
                         <Row xs={1} md={2} className="my-2">
                             <Col className="form-floating">
